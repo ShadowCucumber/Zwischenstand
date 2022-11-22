@@ -5,11 +5,21 @@ public class App {
         Schueler s1 = new Schueler("Max", "Mustermann", 16, "Englisch", true);
 
         if (s1.getHatUnterricht()==true) {
+            System.out.println("Schueler hat Unterricht.");
+        }
+
+        if (s1.getHatUnterricht()==true) {
             l1.setArbeitet(true);
             System.out.println("Schueler hat Unterricht und Lehrer arbeitet");
         }else{
-            System.out.println("Schueler hat kein Unterricht und Lehrer arbeitet nicht.");
+        if (s1.getHatUnterricht()==false) {
+            l1.setArbeitet(false);
+            System.out.println("Schueler hat keinen Unterricht und Lehrer arbeitet nicht.");
+
+        if (s1.getHatUnterricht()==true) {
+            System.out.println("Schueler hat Unterricht.");
+        }else{
+            System.out.println("Schueler hat keinen Unterricht.");
         }
-        
     }
 }
