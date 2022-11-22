@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class App {
     public static void main(String[] args) throws Exception {
         
@@ -20,7 +22,7 @@ public class App {
             System.out.println("Schueler hat Unterricht.");
         }else{
             System.out.println("Schueler hat keinen Unterricht.");
-        }
+        } 
         }
     }
 }
