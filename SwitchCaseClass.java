@@ -16,7 +16,7 @@ public class SwitchCaseClass {
             System.out.println("I ist drei");
             break;
             default:
-            System.out.println("I liegt nicht zwicshen null und drei");
+            System.out.println("m");
             break;
         }
     }
