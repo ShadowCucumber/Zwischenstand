@@ -21,5 +21,8 @@ public class App {
         }else{
             System.out.println("Schueler hat keinen Unterricht.");
         }
+        }
     }
 }
+}
+
