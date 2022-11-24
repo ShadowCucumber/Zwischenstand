@@ -28,7 +28,7 @@ public class App {
         schueler.add(new Schueler("Mona", "Lisa", 15, "Mathe", true));
         schueler.add(new Schueler("Mona", "Lisa", 15, "Mathe", true));
         schueler.add(s1);
-        
+        ge
 
     
 
