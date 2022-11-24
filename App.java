@@ -37,6 +37,7 @@ public class App {
     public static void menschenExample(){
         Schueler s1 = new Schueler("Max", "Mustermann", 16, "Englisch", true, 100);
         Schueler s2 = new Schueler("Max", "Mustermann", 16, "Englisch", true, 100);
+        Schueler s3 = new Schueler("Max", "Mustermann", 16, "Englisch", true, 100);
         ArrayList<Mensch> menschen = new ArrayList<>();
         menschen.add(s1);
         menschen.add(s2);
@@ -44,7 +45,13 @@ public class App {
         for (Mensch mensch : menschen) {
             mensch.showInfo();
         }
+        Mensch[] schueler = new Schueler [2];
+        schueler[0] = s1;
+        schueler[1] = s2;
+        schueler [2] = s3;
+        for (Mensch mensch : menschen) {
+            mensch.showInfo();
+        }
     }
-
 }
 
