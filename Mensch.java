@@ -1,4 +1,4 @@
-public class Mensch {
+public abstract class Mensch {
     String Vorname;
     String Nachname;
     int Alter;
