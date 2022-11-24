@@ -26,7 +26,7 @@ public abstract class Mensch {
         setVorname (vorname);
         setNachname (nachname);
         setAlter (alter);
+    }
 
-    
-}
+    public abstract void showInfo();
 }
