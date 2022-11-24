@@ -1,5 +1,5 @@
 public class SwitchCaseClass {
-    public static void main(String[]args){
+    public void main(String[]args){
         int i=2;
 
         switch(i){
