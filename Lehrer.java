@@ -10,7 +10,7 @@ public class Lehrer extends Mensch{
         Gehalt = gehalt;
     }
 
-    public boolean isArbeitet() {
+    public boolean getArbeitet() {
         return Arbeitet;
     }
 
@@ -23,5 +23,7 @@ public class Lehrer extends Mensch{
         setGehalt (gehalt);
         setArbeitet (arbeitet);
     }
-
+    public void showInfo(){
+        System.out.println(getVorname()+" "+getNachname()+" "+getAlter()+" "+getGehalt()+" "+getArbeitet());
+    }
 }
