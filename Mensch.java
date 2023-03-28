@@ -30,3 +30,6 @@ public abstract class Mensch {
 
     public abstract void showInfo();
 }
+
+
+//test
